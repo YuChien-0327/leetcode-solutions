@@ -1,7 +1,8 @@
 class Solution {
 public:
     int compress(vector<char>& chars) {
-        
+
+        /* 解法一：自己寫的QQ */
         int len = chars.size();
         int idx = 0;
 
@@ -27,5 +28,7 @@ public:
         }
         chars.resize(idx);
         return idx;
+
+        /* 解法二：最佳解 */
     }
 };
